@@ -1,5 +1,5 @@
 # FKGPopSelected
-点击按钮之后弹出一个选项框
+点击按钮之后弹出一个多项选项框
 
 <p>使用方法：</p>
 <p>1.导入两个文件（FKGPopSelected.h/.m)</p>
