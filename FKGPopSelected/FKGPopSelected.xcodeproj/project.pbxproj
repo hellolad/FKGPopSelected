@@ -12,6 +12,7 @@
 		A9E6B8AC1CBE199C00BE1B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6B8AB1CBE199C00BE1B04 /* ViewController.m */; };
 		A9E6B8B11CBE199C00BE1B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E6B8B01CBE199C00BE1B04 /* Assets.xcassets */; };
 		A9E6B8BC1CBE19EC00BE1B04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E6B8BB1CBE19EC00BE1B04 /* Launch Screen.storyboard */; };
+		A9E6B8BF1CBE1ECF00BE1B04 /* FKGPopSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopSelected.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		A9E6B8B01CBE199C00BE1B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E6B8B51CBE199C00BE1B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E6B8BB1CBE19EC00BE1B04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A9E6B8BD1CBE1ECF00BE1B04 /* FKGPopSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKGPopSelected.h; sourceTree = "<group>"; };
+		A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKGPopSelected.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				A9E6B8A81CBE199C00BE1B04 /* AppDelegate.m */,
 				A9E6B8AA1CBE199C00BE1B04 /* ViewController.h */,
 				A9E6B8AB1CBE199C00BE1B04 /* ViewController.m */,
+				A9E6B8BD1CBE1ECF00BE1B04 /* FKGPopSelected.h */,
+				A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopSelected.m */,
 				A9E6B8A41CBE199C00BE1B04 /* Supporting Files */,
 			);
 			path = FKGPopSelected;
@@ -148,6 +153,7 @@
 				A9E6B8AC1CBE199C00BE1B04 /* ViewController.m in Sources */,
 				A9E6B8A91CBE199C00BE1B04 /* AppDelegate.m in Sources */,
 				A9E6B8A61CBE199C00BE1B04 /* main.m in Sources */,
+				A9E6B8BF1CBE1ECF00BE1B04 /* FKGPopSelected.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
