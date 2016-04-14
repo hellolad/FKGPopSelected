@@ -50,10 +50,12 @@
     FKGPopSelected *s = [[FKGPopSelected alloc] init];
     
     // 2.初始化内容数组
-    s.selects = @[@"选项一", @"选项二", @"选项三", @"选项四",@"选项五", @"选项六"];
+    s.selectContents = @[@"首页", @"个人中心", @"问题一箩筐", @"任务管理",@"有奖问答"];
+    s.selectImages = @[@"select1",@"select2",@"select3",@"select4",@"select5"];
     
     // 3.加载Pop框
     [s setupPopSelectedViewOfHeight:40 ofMutiple:0.35 toFrame:sender.frame handler:^(int index) {
+        
         NSLog(@"index = %d", index);
     }];
 }

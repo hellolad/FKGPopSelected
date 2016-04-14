@@ -36,24 +36,46 @@
     v.backgroundColor = [UIColor whiteColor];
     [self addSubview:v];
     
-    if(self.selects && self.selects.count > 0) {
+    if(self.selectContents && self.selectContents.count > 0) {
         
         _handler = handler;
         
-        for(int i = 0; i < self.selects.count; i++) {
+        for(int i = 0; i < self.selectContents.count; i++) {
             UIButton *b = [UIButton new];
             [v addSubview:b];
             
             b.frame = CGRectMake(0, height * i, self.frame.size.width * mutiple, height);
-            [b setTitle:self.selects[i] forState:UIControlStateNormal];
-            [b setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
-            b.titleLabel.font = [UIFont systemFontOfSize:15.0f];
-            
             b.tag = i;
             
             [b addTarget:self action:@selector(buttonSelectAction:) forControlEvents:UIControlEventTouchUpInside];
             [b addTarget:self action:@selector(buttonSelectDown:) forControlEvents:UIControlEventTouchDown];
             [b addTarget:self action:@selector(buttonSelectOutside:) forControlEvents:UIControlEventTouchUpOutside];
+            
+            if(self.selectImages && self.selectImages.count > 0) {
+                
+                UIImageView *image = [UIImageView new];
+                image.frame = CGRectMake(14, 7, height-14, height-14);
+                image.image = [UIImage imageNamed:self.selectImages[i]];
+                [b addSubview:image];
+                
+                UILabel *label = [UILabel new];
+                label.frame = CGRectMake(14+(height-14)+7, 0, self.frame.size.width-(height-14), height);
+                //label.textAlignment = NSTextAlignmentCenter;
+                label.text = self.selectContents[i];
+                label.textColor = [UIColor darkGrayColor];
+                label.font = [UIFont systemFontOfSize:15];
+                [b addSubview:label];
+                
+            } else {
+                
+                UILabel *label = [UILabel new];
+                label.frame = b.bounds;
+                label.textAlignment = NSTextAlignmentCenter;
+                label.text = self.selectContents[i];
+                label.textColor = [UIColor darkGrayColor];
+                label.font = [UIFont systemFontOfSize:15];
+                [b addSubview:label];
+            }
             
             if(i != 0) {
                 
@@ -81,7 +103,7 @@
         vx = self.frame.size.width - self.frame.size.width * mutiple - 10;
     }
     
-    v.frame = CGRectMake(vx, toFrame.origin.y+toFrame.size.height+10, self.frame.size.width * mutiple, height * self.selects.count);
+    v.frame = CGRectMake(vx, toFrame.origin.y+toFrame.size.height+10, self.frame.size.width * mutiple, height * self.selectContents.count);
     v.layer.cornerRadius = 5;
     v.layer.masksToBounds = YES;
     

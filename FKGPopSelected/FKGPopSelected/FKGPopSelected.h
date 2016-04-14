@@ -10,7 +10,9 @@
 
 typedef void(^FKGPopActionHandler)(int index);
 @interface FKGPopSelected : UIView
-@property (nonatomic, strong) NSArray *selects; // 内容数组
+
+@property (nonatomic, strong) NSArray *selectContents;  // 内容数组
+@property (nonatomic, strong) NSArray *selectImages;    // 图片数组
 
 /**
  *  加载 Pop
