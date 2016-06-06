@@ -13,6 +13,7 @@
     
     float _swidth;
     float _sheight;
+    UIButton *_selectButton;
 }
 
 - (void)viewDidLoad {
@@ -29,21 +30,30 @@
 
 - (void) setupWindow {
     
-    for(int i = 0; i < 1; i++) {
-        
-        UIButton *button = [UIButton new];
-        [self.view addSubview:button];
-        
-        button.frame = CGRectMake(self.view.frame.size.width-60, 30, 50, 40);
-        [button setTitle:@"选项1" forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        
-        button.tag = i;
-        [button addTarget:self action:@selector(buttonSelectedAction:) forControlEvents:UIControlEventTouchUpInside];
-    }
+    
+    UIView *v = [UIView new];
+    v.frame = CGRectMake(10, 100, 100, 50);
+    [self.view addSubview:v];
+    v.backgroundColor = [UIColor redColor];
+    
+    UIButton *button = [UIButton new];
+    [v addSubview:button];
+    
+    button.frame = CGRectMake(10, 10, 50, 30);
+    [button setTitle:@"选项1" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
+    [button addTarget:self action:@selector(buttonSelectedAction:) forControlEvents:UIControlEventTouchUpInside];
+    
+    _selectButton = button;
 }
 
 - (void) buttonSelectedAction:(UIButton *)sender {
+    
+    // 注意：由convertRect: toView 获取到屏幕上该控件的绝对位置。
+    UIWindow *window = [[UIApplication sharedApplication].delegate window];
+    CGRect frame = [_selectButton convertRect:_selectButton.bounds toView:window];
+    NSLog(@"%f, %f", frame.origin.x, frame.origin.y);
     
     // 用法
     // 1.实例化
@@ -54,7 +64,7 @@
     s.selectImages = @[@"select1",@"select2",@"select3",@"select4",@"select5"];
     
     // 3.加载Pop框
-    [s setupPopSelectedViewOfHeight:40 ofMutiple:0.35 toFrame:sender.frame handler:^(int index) {
+    [s setupPopSelectedViewOfHeight:40 ofMutiple:0.35 toFrame:frame handler:^(int index) {
         
         NSLog(@"index = %d", index);
     }];
