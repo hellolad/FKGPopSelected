@@ -112,6 +112,7 @@
 				TargetAttributes = {
 					A9E6B8A01CBE199C00BE1B04 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CD6GQ6D3AM;
 					};
 				};
 			};
@@ -246,10 +247,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: liuwenlong713@pingan.com.cn (VB7DALY2AP)";
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.forkingghost.FKGPopSelected;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoheng.WithPat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
 			};
 			name = Debug;
 		};
@@ -257,10 +260,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: liuwenlong713@pingan.com.cn (VB7DALY2AP)";
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.forkingghost.FKGPopSelected;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoheng.WithPat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
 			};
 			name = Release;
 		};
@@ -283,6 +288,7 @@
 				A9E6B8BA1CBE199C00BE1B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
