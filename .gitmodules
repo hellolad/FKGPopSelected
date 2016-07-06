@@ -1,0 +1,3 @@
+[submodule "FKGPopSelected/FKGRequestFetch"]
+	path = FKGPopSelected/FKGRequestFetch
+	url = https://forkingghost@github.com/forkingghost/FKGRequestFetch.git
