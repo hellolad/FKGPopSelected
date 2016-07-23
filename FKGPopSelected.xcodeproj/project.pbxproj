@@ -252,7 +252,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
+				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
 			};
 			name = Debug;
 		};
@@ -265,7 +265,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
+				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
 			};
 			name = Release;
 		};
