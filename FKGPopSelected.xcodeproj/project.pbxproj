@@ -250,7 +250,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: yin he (BZEDKZ7J3H)";
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.Television;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
 			};
@@ -263,7 +263,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: yin he (BZEDKZ7J3H)";
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.Television;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
 			};
