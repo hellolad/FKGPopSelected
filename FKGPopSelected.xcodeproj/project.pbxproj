@@ -252,6 +252,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
 			};
 			name = Debug;
 		};
@@ -264,6 +265,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40f5c312-e1e5-4976-9121-b7dccddb9bc3";
 			};
 			name = Release;
 		};

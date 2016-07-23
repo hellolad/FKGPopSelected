@@ -5,7 +5,7 @@
 <p>2.在需要的地方添加如下代码：</p>
 ```objective-c
 
-// 注意：由convertRect: toView 获取到屏幕上该控件的绝对位置。
+// 注意：convertRect: toView 可以获取到屏幕上该控件的绝对位置。
 UIWindow *window = [[UIApplication sharedApplication].delegate window];
 CGRect frame = [_selectButton convertRect:_selectButton.bounds toView:window];
 NSLog(@"%f, %f", frame.origin.x, frame.origin.y);
@@ -19,7 +19,7 @@ s.selectContents = @[@"首页", @"个人中心", @"问题一箩筐", @"任务管
 s.selectImages = @[@"select1",@"select2",@"select3",@"select4",@"select5"];
 
 // 3.加载Pop框
-[s setupPopSelectedViewOfHeight:40 ofMutiple:0.35 toFrame:sender.frame handler:^(int index) {
+[s setupPopSelectedViewOfHeight:40 ofMutiple:0.35 toFrame:frame handler:^(int index) {
 
 NSLog(@"index = %d", index);
 }];
