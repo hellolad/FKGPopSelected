@@ -1,14 +1,14 @@
 //
-//  FKGPopSelected.m
-//  FKGPopSelected
+//  FKGPopOption
+//  FKGPopOption
 //
 //  Created by forkingghost on 16/4/13.
 //  Copyright © 2016年 forkingghost. All rights reserved.
 //
 
-#import "FKGPopSelected.h"
+#import "FKGPopOption.h"
 
-@implementation FKGPopSelected {
+@implementation FKGPopOption {
     
     FKGPopActionHandler _handler;
 }
@@ -60,7 +60,6 @@
                 
                 UILabel *label = [UILabel new];
                 label.frame = CGRectMake(14+(height-14)+7, 0, self.frame.size.width-(height-14), height);
-                //label.textAlignment = NSTextAlignmentCenter;
                 label.text = self.selectContents[i];
                 label.textColor = [UIColor darkGrayColor];
                 label.font = [UIFont systemFontOfSize:15];

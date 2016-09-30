@@ -1,6 +1,6 @@
 //
-//  FKGPopSelected.h
-//  FKGPopSelected
+//  FKGPopOption.h
+//  FKGPopOption
 //
 //  Created by forkingghost on 16/4/13.
 //  Copyright © 2016年 forkingghost. All rights reserved.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^FKGPopActionHandler)(int index);
-@interface FKGPopSelected : UIView
+@interface FKGPopOption : UIView
 
 @property (nonatomic, strong) NSArray *selectContents;  // 内容数组
 @property (nonatomic, strong) NSArray *selectImages;    // 图片数组
