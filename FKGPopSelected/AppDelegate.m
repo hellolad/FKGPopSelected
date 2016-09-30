@@ -20,6 +20,10 @@
     ViewController *v = [ViewController new];
     self.window.rootViewController = v;
     
+    /**
+     *  do something...
+     */
+    
     return YES;
 }
 
