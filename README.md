@@ -3,7 +3,7 @@
 ####使用方法:
 1. 导入两个文件（FKGPopOption.h)
 2. 在需要的地方添加如下代码:
-```
+```objective-c
 // 注意：由convertRect: toView 获取到屏幕上该控件的绝对位置。
 UIWindow *window = [[UIApplication sharedApplication].delegate window];
 CGRect frame = [optionButton convertRect:optionButton.bounds toView:window];
