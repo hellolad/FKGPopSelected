@@ -127,7 +127,8 @@
 				TargetAttributes = {
 					A9E6B8A01CBE199C00BE1B04 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = ZF49XWH586;
+						DevelopmentTeam = CD6GQ6D3AM;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -272,11 +273,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yin he (BZEDKZ7J3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CD6GQ6D3AM;
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.Television;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingghost.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -285,11 +290,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yin he (BZEDKZ7J3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CD6GQ6D3AM;
 				INFOPLIST_FILE = FKGPopSelected/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.Television;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkingghost.FKGPopSelected;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f5721310-4950-4c24-a319-dfe3a47c8a59";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
