@@ -138,14 +138,6 @@
     CGFloat background_w = self_w * self.option_mutiple;
     CGFloat background_h = self.option_lineHeight*self.option_optionContents.count;
     
-    
-//    if(which_x<=self_w*self.option_mutiple/2) {
-//        background_x = 10;
-//    }
-//    if (self_w-which_x<= self_w*self.option_mutiple/2) {
-//        background_x = self_w - self_w * self.option_mutiple - 10;
-//    }
-    
     if (background_x < 10) {
         background_x = 10;
     }
