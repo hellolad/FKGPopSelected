@@ -10,7 +10,7 @@
 
 @interface FKGPopOption ()
 @property (nonnull, strong) UIView *backgroundView;
-@property (nonatomic, weak) FKGPopOptionBlock optionBlock;
+@property (nonatomic, strong) FKGPopOptionBlock optionBlock;
 @end
 
 @implementation FKGPopOption
@@ -182,6 +182,13 @@
 }
 - (void) _buttonSelectOutside:(UIButton *)button {
     button.backgroundColor = [UIColor whiteColor];
+}
+
+
+#pragma mark - dealloc
+
+- (void)dealloc {
+    self.optionBlock = nil;
 }
 
 @end

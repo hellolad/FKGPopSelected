@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FKGPopOption.h"
+#import "SecondViewController.h"
 
 @implementation ViewController
 
@@ -39,8 +40,11 @@
     s.option_optionContents = @[@"首页", @"个人中心", @"问题一箩筐", @"任务管理",@"有奖问答"];
     s.option_optionImages = @[@"select1",@"select2",@"select3",@"select4",@"select5"];
     // 使用链式语法直接展示 无需再写 [s option_show];
+
     [[s option_setupPopOption:^(NSInteger index, NSString *content) {
         NSLog(@"你选中了第%ld行 选项为：%@", index, content);
+        SecondViewController *second = [SecondViewController new];
+        [self.navigationController pushViewController:second animated:YES];
     } whichFrame:frame animate:YES] option_show];
 }
 

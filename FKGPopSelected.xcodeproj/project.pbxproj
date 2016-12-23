@@ -13,6 +13,7 @@
 		A9E6B8B11CBE199C00BE1B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E6B8B01CBE199C00BE1B04 /* Assets.xcassets */; };
 		A9E6B8BC1CBE19EC00BE1B04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E6B8BB1CBE19EC00BE1B04 /* Launch Screen.storyboard */; };
 		A9E6B8BF1CBE1ECF00BE1B04 /* FKGPopOption.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopOption.m */; };
+		F561043C1E0D10BA00155036 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F561043B1E0D10BA00155036 /* SecondViewController.m */; };
 		F5C599811D9E5E340004BB5A /* select4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C5997C1D9E5E340004BB5A /* select4.png */; };
 		F5C599821D9E5E340004BB5A /* select5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C5997D1D9E5E340004BB5A /* select5.png */; };
 		F5C599831D9E5E340004BB5A /* select3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C5997E1D9E5E340004BB5A /* select3.png */; };
@@ -32,6 +33,8 @@
 		A9E6B8BB1CBE19EC00BE1B04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A9E6B8BD1CBE1ECF00BE1B04 /* FKGPopOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKGPopOption.h; sourceTree = "<group>"; };
 		A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKGPopOption.m; sourceTree = "<group>"; };
+		F561043A1E0D10BA00155036 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F561043B1E0D10BA00155036 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F5C5997C1D9E5E340004BB5A /* select4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select4.png; sourceTree = "<group>"; };
 		F5C5997D1D9E5E340004BB5A /* select5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select5.png; sourceTree = "<group>"; };
 		F5C5997E1D9E5E340004BB5A /* select3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select3.png; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				A9E6B8A81CBE199C00BE1B04 /* AppDelegate.m */,
 				A9E6B8AA1CBE199C00BE1B04 /* ViewController.h */,
 				A9E6B8AB1CBE199C00BE1B04 /* ViewController.m */,
+				F561043A1E0D10BA00155036 /* SecondViewController.h */,
+				F561043B1E0D10BA00155036 /* SecondViewController.m */,
 				A9E6B8BD1CBE1ECF00BE1B04 /* FKGPopOption.h */,
 				A9E6B8BE1CBE1ECF00BE1B04 /* FKGPopOption.m */,
 				A9E6B8A41CBE199C00BE1B04 /* Supporting Files */,
@@ -172,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F561043C1E0D10BA00155036 /* SecondViewController.m in Sources */,
 				A9E6B8AC1CBE199C00BE1B04 /* ViewController.m in Sources */,
 				A9E6B8A91CBE199C00BE1B04 /* AppDelegate.m in Sources */,
 				A9E6B8A61CBE199C00BE1B04 /* main.m in Sources */,
